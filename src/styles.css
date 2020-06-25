@@ -1,0 +1,44 @@
+html,
+body {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background: #F2994A;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F2C94C, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F2C94C, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.card.is-wide {
+  width: 550px;
+}
+
+.card.has-text-centered .card-header,
+.card.has-text-centered .card-content,
+.card.has-text-centered .card-footer {
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+}
+.card.has-text-centered h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.card-header {
+  padding: 1rem 0;
+}
+
+.card-content {
+  padding: 2rem 0;
+  border-radius: 25px;
+}
+
+.card-footer {
+  padding: 1rem 0;
+  border: none;
+  font-size: .9rem;
+  color: gray;
+}
